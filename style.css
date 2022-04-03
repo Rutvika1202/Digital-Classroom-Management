@@ -1,0 +1,93 @@
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            background-image: url(Backgroundimage.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .outer 
+        {
+            display: flex;
+        }
+
+        .heading h3 
+        {
+            margin: 200px 100px auto;
+            text-align: center;
+            font-size: 30pt;
+        }
+
+        .para p 
+        {
+            margin: 30px 100px auto;
+            text-align: center;
+            font-size: 16pt;
+        }
+
+        hr 
+        {
+            width: 530px;
+            margin: 30px 150px auto;
+            text-align: center;
+        }
+
+        .container1 
+        {
+            height: fit-content;
+            width: fit-content;
+        }
+
+        .container2 
+        {
+            height: fit-content;
+            width: fit-content;
+            margin: 200px 30px auto;
+        }
+        
+        label , input , select ,option
+        {
+            /* margin-top: 25px; */
+            font-size: 13pt;
+        }
+        input[type=submit]
+        {
+            width: 150px;
+            background-color: lightgray;
+            box-shadow: 2px 2px 5px 2px grey;
+        }
+
+        nav {
+            margin-left: 1400px;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 16pt;
+            color: black;
+        }
+
+        button {
+            box-shadow: 2px 2px 5px 2px gray;
+        }
+
+        .container_teacher
+        {
+            margin: 20px auto;
+        }
+        .container_teacher hr{
+            text-align: center;
+        }
+
+        .head h3 
+        {
+            margin: 20px auto;
+            text-align: center;
+            font-size: 30pt;
+        }
+        legend
+        {
+           box-shadow: 2px 5px 2px 2px gray;
+        }
